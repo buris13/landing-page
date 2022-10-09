@@ -4,6 +4,16 @@
     padding: 0;
 }
 
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    flex: 1;
+}
+
 a {
     text-decoration: none;
     color: #e5e7eb;
@@ -36,14 +46,24 @@ footer {
     margin-bottom: 16px;
 }
 
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
 .navbar .container,
 .one .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 16px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex: 1;
+}
+
+.navbar .container {
+    padding: 16px 0;
 }
 
 .navbar-link {
@@ -71,11 +91,14 @@ footer {
 }
 
 .two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    /* padding: 32px 0 64px 0; */
 }
 
 .two h2 {
+    margin-bottom: 42px;
     font-size: 36px;
     font-weight: 900;
     color: #1f2937;
@@ -92,7 +115,6 @@ footer {
 }
 
 .box-container {
-    padding-top: 32px;
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -102,6 +124,7 @@ footer {
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .quote {
@@ -121,16 +144,19 @@ footer {
 .four {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container-card {
     width: 800px;
+    height: 100px;
     border-radius: 16px;
     background-color: #3882f6;
     color: #f9faf8;
     padding: 24px 48px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .four .sign-up {
