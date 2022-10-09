@@ -10,7 +10,8 @@ a {
     font-size: 18px;
 }
 
-.container {
+.navbar,
+.one {
     background-color: #1f2937;
 }
 
@@ -19,8 +20,9 @@ a {
     color: #f9faf8;
 }
 
-.navbar link,
+.navbar-link,
 .text {
+    list-style-type: none;
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -31,3 +33,15 @@ a {
     font-weight: 900;
 }
 
+.navbar .container{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 24px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-link {
+    display: flex;
+    gap: 16px;
+}
