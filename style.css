@@ -61,7 +61,7 @@ a {
 }
 
 .sign-up {
-    padding: 8px 16px;
+    padding: 8px 24px;
     border-radius: 8px;
     background-color: #3882f6;
     color: #f9faf8;
@@ -115,4 +115,24 @@ a {
     font-size: 24px;
     font-style: normal;
     align-self: flex-end;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+}
+
+.container-card {
+    width: 800px;
+    border-radius: 16px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.four .sign-up {
+    border: 3px solid #f9faf8;
+    margin: 0;
 }
