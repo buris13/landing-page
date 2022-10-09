@@ -68,3 +68,25 @@ a {
     font-weight: 700;
     margin-top: 16px;
 }
+
+.two {
+    text-align: center;
+    /* padding: 32px 0 64px 0; */
+}
+
+.box img {
+    width: 160px;
+    height: 160px;
+    border-radius: 16px;
+}
+
+.box {
+    width: 160px;
+}
+
+.box-container {
+    padding-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
