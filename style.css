@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.container {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.navbar link,
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left-side h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
