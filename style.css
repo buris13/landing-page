@@ -18,6 +18,7 @@ a {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: 700;
 }
 
 .navbar-link,
@@ -31,17 +32,39 @@ a {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 900;
+    margin-bottom: 16px;
 }
 
-.navbar .container{
-    max-width: 1100px;
+.navbar .container,
+.one .container {
+    max-width: 1200px;
     margin: 0 auto;
     padding: 24px 0;
     display: flex;
     justify-content: space-between;
+    /* align-items: center; */
 }
 
 .navbar-link {
     display: flex;
     gap: 16px;
+}
+
+.right-side img {
+    width: 600px;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.left-side {
+    width: 400px;
+}
+
+.sign-up {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 700;
+    margin-top: 16px;
 }
