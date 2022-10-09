@@ -96,3 +96,23 @@ a {
     justify-content: center;
     gap: 32px;
 }
+
+.three {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+}
+
+.quote {
+    width: 750px;
+    font-size: 36px;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote strong {
+    font-size: 24px;
+    font-style: normal;
+    align-self: flex-end;
+}
