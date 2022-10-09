@@ -74,6 +74,12 @@ a {
     /* padding: 32px 0 64px 0; */
 }
 
+.two h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
 .box img {
     width: 160px;
     height: 160px;
